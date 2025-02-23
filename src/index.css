@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add this to your global CSS file or within a <style> tag */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom hover effects */
+.hover-scale {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Futuristic gradient for buttons */
+.futuristic-gradient {
+  background: linear-gradient(135deg, #1a73e8, #6c5ce7);
+  color: white;
+  border: none;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.futuristic-gradient:hover {
+  background: linear-gradient(135deg, #135abc, #5a4fcf);
+  transform: translateY(-2px);
+}
+
+/* Glow effect for dark mode */
+.dark-mode-glow {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Light mode hover effect */
+.light-mode-hover:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Dark mode hover effect */
+.dark-mode-hover:hover {
+  background: rgba(255, 255, 255, 0.05);
+}

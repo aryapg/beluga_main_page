@@ -1,1 +1,1 @@
-# beluga_main_page
+hello!

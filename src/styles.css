@@ -1,0 +1,48 @@
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .futuristic-gradient {
+    background: linear-gradient(270deg, #1a73e8, #6f42c1, #1a73e8);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    color: white;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .futuristic-gradient:hover {
+    transform: scale(1.05);
+  }
+  
+  .dark-mode-glow {
+    box-shadow: 0 0 15px rgba(26, 115, 232, 0.5);
+  }
+  
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.02);
+  }
+  
+  .animate-loop {
+    animation: loop 10s linear infinite;
+  }
+  
+  @keyframes loop {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .animate-bounce {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
