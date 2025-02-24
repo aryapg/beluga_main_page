@@ -99,6 +99,7 @@ re==2.2.1
 smtplib==1.0
 email==5.1.1
 fpdf==1.7.2
+axios
 ```
 
 ### Explanation of Dependencies:
